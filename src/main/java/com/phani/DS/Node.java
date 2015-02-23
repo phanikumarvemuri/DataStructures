@@ -5,17 +5,17 @@ public class Node {
 	Object data;
 	
 	
-
-
-
-
-	public Node(Object obj) {
+public Node(Object obj) {
 		// TODO Auto-generated constructor stub
 		this.next=null;
 		this.data=obj;
 	}
 
-
+public Node(Object obj, Node temp)
+{
+	this.next=temp;
+	this.data=obj;
+}
 
 	
 	

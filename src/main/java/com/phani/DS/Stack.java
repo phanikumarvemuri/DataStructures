@@ -1,8 +1,11 @@
 package com.phani.DS;
 
 
-import java.lang.reflect.Array;
 import java.util.Vector;
+
+@SuppressWarnings("serial")
+
+// Implementing stack using vector
 
 public class Stack<T> extends Vector {
 	int TOP;

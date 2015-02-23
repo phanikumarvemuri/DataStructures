@@ -1,5 +1,9 @@
 package com.phani.DS;
 
+// Stack Implementation using Linked List which had advantages over array,
+// The time complexity of the below methods is O(n-2) since we are looping n-1 times the length of the stack
+// For Array Implementation we cannot grow the size of the stack dynamically
+
 
 public class StackUsingLinkedList {
 
