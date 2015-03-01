@@ -203,8 +203,10 @@ public class BST {
 		bt.insert(bt.root, 6);
 		bt.insert(bt.root, 7);
 		bt.insert(bt.root, 7);
-		bt.Traversal("preorder");
+		bt.delete(3);
+		bt.delete(5);
 		bt.Traversal("inorder");
+		bt.Traversal("preorder");
 		bt.Traversal("postorder");
 
 	}
